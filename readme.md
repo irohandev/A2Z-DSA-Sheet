@@ -4,7 +4,7 @@ Welcome to my notes & solution repo of the **DSA Sheet** by **takeUforward**!
 This repository is your go-to resource for mastering Data Structures and Algorithms:
 
 - 📚 **Codes of the Course**
-- ✅ **Solutions to Problems from the DSA Sheet**
+- ✅ **Solutions of Problems from the DSA Sheet**
 
 Eager to dive into the code? Here's how you can get started:
 
