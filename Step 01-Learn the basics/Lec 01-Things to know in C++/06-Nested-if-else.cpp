@@ -11,6 +11,7 @@ using namespace std;    // Using the standard namespace to avoid writing 'std::'
 int main() {
     int age; // Declare an integer variable to store the user's input
 
+    cout << "Enter your age : ";
     cin >> age; // Take input for the user's age
 
     if (age < 18) { // If age is less than 18
