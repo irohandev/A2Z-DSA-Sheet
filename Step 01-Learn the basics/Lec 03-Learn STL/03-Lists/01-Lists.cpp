@@ -1,18 +1,18 @@
-#include <iostream>
-#include <list>  // Include list library
+#include<bits/stdc++.h>
+using namespace std;
 
 void explainList() {
     // Declare a list of integers
-    std::list<int> ls;
+    list<int> ls;
 
     // Add an element to the end of the list
-    ls.push_back(2);  // Adds '2' to the end
+    ls.push_back(2);  // Adds '2' to the end - {2}
 
     // Adds an element to the end of the list using emplace_back
-    ls.emplace_back(4);  // Adds '4' to the end, emplace_back is more efficient as it constructs the object in place
+    ls.emplace_back(4);  // Adds '4' to the end, emplace_back is more efficient as it constructs the object in place - {2,4}
 
     // Adds an element to the front of the list
-    ls.push_front(5);  // Adds '5' to the front of the list
+    ls.push_front(5);  // Adds '5' to the front of the list - {5,2,4}
 
     // Incorrect line: This is not a valid syntax for emplace_front
     // ls.emplace_front(); (2, 4); // This line is not valid. emplace_front() expects arguments to construct an element, but here no arguments are given and the tuple is incorrectly placed.
