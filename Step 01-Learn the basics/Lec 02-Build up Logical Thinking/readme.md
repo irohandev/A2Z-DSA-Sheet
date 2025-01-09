@@ -1,9 +1,20 @@
-Points to remember :
+# Pattern Printing Guide
 
-1. For the outer loops, count the no. of lines i.e rows
+## Points to Remember for Pattern Printing
 
-2. for the inner loop , focus on the columns & connect them somehow to the rows
+When writing code for pattern printing, keep the following points in mind:
 
-3. Print them "*" inside the inner for loop
+1. **Outer Loops: Rows**  
+   - The outer loop typically corresponds to the number of lines (or rows) in the pattern.  
+   - Determine the total number of rows required based on the pattern's height.  
 
-4. Observe ht esymmetry {OPTIONAL}
+2. **Inner Loops: Columns**  
+   - The inner loop handles the number of columns to print for each row.  
+   - Establish a relationship between rows and columns to define the pattern (e.g., rows determine the number of columns or their positions).  
+
+3. **Printing Characters**  
+   - Inside the inner loop, use the `print` function to display the required characters (usually `"*"` for basic patterns).  
+
+4. **Observe the Symmetry (Optional)**  
+   - Analyze the pattern to identify any symmetry.  
+   - Symmetry can help optimize the logic and simplify your approach.  
