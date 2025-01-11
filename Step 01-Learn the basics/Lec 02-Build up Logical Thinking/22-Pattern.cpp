@@ -26,6 +26,7 @@ void print(int n)
      }
 }
 
+
 int main()
 {   
     // Taking the value of n from the user
