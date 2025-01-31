@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    
     string s;
 
     // Step 1: Input the string from the user
