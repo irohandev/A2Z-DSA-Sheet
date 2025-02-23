@@ -43,3 +43,29 @@ int main() {
 
     return 0;
 }
+
+/*
+Example Input/Output:
+
+Input 1:
+Enter the string: apple
+Enter the number of queries: 3
+a
+p
+l
+
+Output 1:
+Frequency of 'a' is: 1
+Frequency of 'p' is: 2
+Frequency of 'l' is: 1
+
+Input 2:
+Enter the string: banana
+Enter the number of queries: 2
+n
+b
+
+Output 2:
+Frequency of 'n' is: 2
+Frequency of 'b' is: 1
+*/
